@@ -10,8 +10,8 @@ body{
 
 height: 150px;
 margin: 0;
-background: #242121;
-border-bottom: 5px solid #AFF733;
+background: #1C1C1C;
+border-bottom: 5px solid #FE2E9A;
 }
 
 #MENU {
@@ -20,11 +20,15 @@ width: 800px;
 text-align: center; 
 
 }
-ul{text-align: center; 
+ul{
+
+
+text-align: center; 
 background: blue;
 
 }
 ul li{
+padding: 0px;
 display:inline;
 }
 li a{
@@ -48,6 +52,32 @@ background: -moz-linear-gradient(top, #2256f2, #01040d);
 	
 
 }
+
+#SIDEBAR{
+min-height: 400px;
+width: 200px;
+float:left;
+border-right: 2px solid ;
+border-top: 2px solid ;
+}
+#stopka{
+padding: 0;
+clear:both;
+height: 30px;
+margin: 0;
+background: #FE2E9A;
+
+}
+#TRESC{
+border-top: 2px solid;
+width:578px;
+margin:0;
+padding-left:20px;
+padding-top:20px;
+float:left;
+
+}
+
 .ALL{
 	
 	position: relative; 
@@ -55,8 +85,8 @@ background: -moz-linear-gradient(top, #2256f2, #01040d);
 	width:800px; 
 	margin:0px auto;
 	text-align:left;
-	padding:15px;
-	border:1px solid #333;
+	
+	border:1px solid #FE2E9A;
 	background-color:#FFF;
 
 } 

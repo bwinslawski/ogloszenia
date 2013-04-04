@@ -1,6 +1,8 @@
 <?php
 include 'config.php';
 include 'include/header.html';
+include 'include/menu.html';
+echo '<div id="TRESC">' ;
 
 try {
 	$pdo = new PDO($dsn, $user, $password, 
@@ -17,7 +19,7 @@ try {
 } catch (PDOException $e) {
 	echo 'Połączenie nie mogło zostać utworzone: ' . $e->getMessage();
 }
-
+echo '</div>';
 include 'include/footer.html';
 
 ?>
