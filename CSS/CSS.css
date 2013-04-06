@@ -4,7 +4,7 @@ body{
 	text-align:center;
 	background:#e0e0e0;
 
-background: #CEADAD;
+background: #B097AE;
 }
 
 #PO{
@@ -12,12 +12,13 @@ background: #CEADAD;
 height: 150px;
 margin: 0;
 background: #6E2F55;
-border-bottom: 5px solid #FE2E9A;
+border-bottom: 5px solid #3F3B41;
 
 }
 
 #MENU {
-background: blue;
+
+
 width: 800px;
 text-align: center; 
 
@@ -33,17 +34,20 @@ ul li{
 padding: 0px;
 display:inline;
 }
-li a{
 
+li a{
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
 font-family: Arial;
-color:#303030;
+color: #73197C;
 font-size: 35px;
 padding: 5px;
 text-decoration: none;
 -webkit-box-shadow: 0px 1px 3px #666666;
 -moz-box-shadow: 0px 1px 3px #666666;
 box-shadow: 0px 1px 3px #666666;
-text-shadow: 1px 1px 3px #666666;
+
+
 border: solid #303030 2px;
 background: -webkit-gradient(linear, 0 0, 0 100%, from(#2256f2), to(#01040d));
 background: -moz-linear-gradient(top, #2256f2, #01040d);
@@ -73,11 +77,47 @@ margin: 0;
 background: #FE2E9A;
 
 }
-#TRESC{
-border-top: 2px solid;
-width:578px;
-margin:0;
+
+ul.prawo {
+margin: 0;
+padding: 0;
+text-align: right;
+
+}
+
+.funkcje{
+
+text-align: right;
+
+
+}
+.opis{
+
+background: #D8DADA;
+}
+.data{
+
+text-align: right;
+
+}
+.tytul{
+color: blue;
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+
+font-size: 25px;
 padding-left:20px;
+
+margin: 0; 
+background: #8E8484;
+
+}
+#TRESC{
+text-align: center;
+border-top: 2px solid;
+width:758px;
+margin:0;
+
 padding-top:20px;
 float:left;
 
@@ -91,7 +131,7 @@ float:left;
 	margin:0px auto;
 	text-align:left;
 	
-	border:1px solid #FE2E9A;
+	border:1px solid #3F3B41;
 	background-color:#FFF;
 
 } 
@@ -111,16 +151,21 @@ color:#808080;
 }
 
 a {
-color:#303030;
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+
+
 text-decoration:none;
 
 }
 
 a:hover {
+
 color:#FFFFFF;
+text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
 text-decoration:none;
- background: -webkit-gradient(linear, 0 0, 0 100%, from(#f5c1d8), to(#57052a));
-background: -moz-linear-gradient(top, #f5c1d8, #57052a);
+
 }
 
 p {
